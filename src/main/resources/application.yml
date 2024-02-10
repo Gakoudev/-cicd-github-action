@@ -17,4 +17,18 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
 
+---
 
+spring:
+  profiles: test
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
