@@ -41,7 +41,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Start Docker containers
-      uses: docker/compose-cli@v1
+      uses: docker/compose-cli@latest
       with:
         compose-file: docker-compose.yml
         run: up -d
