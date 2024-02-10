@@ -65,6 +65,6 @@ public class ProduitServiceTest {
 
         assertEquals(produitDto, fetchedProduitDto);
     }
-    
+
  */
 }
