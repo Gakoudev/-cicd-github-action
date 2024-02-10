@@ -1,5 +1,5 @@
 package com.gakoudev.cicd.services;
-/*
+
 import com.gakoudev.cicd.dao.ProduitDao;
 import com.gakoudev.cicd.dto.ProduitDto;
 import com.gakoudev.cicd.entities.Produit;
@@ -16,10 +16,10 @@ import static org.mockito.Mockito.*;
 
 
 
- */
+
 
 public class ProduitServiceTest {
-/*
+
     @InjectMocks
     private ProduitService produitService;
 
@@ -72,5 +72,5 @@ public class ProduitServiceTest {
 
 
 
- */
+
 }
