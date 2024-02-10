@@ -11,10 +11,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/produits")
 public class ProduitController {
-    @Autowired
+
     private ProduitService produitService;
 
-    @Autowired
+
     private ProduitMapper produitMapper;
 
     @PostMapping

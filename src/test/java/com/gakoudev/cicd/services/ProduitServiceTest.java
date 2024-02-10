@@ -14,8 +14,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.*;
 
+
+
 public class ProduitServiceTest {
-/*
+
     @InjectMocks
     private ProduitService produitService;
 
@@ -66,5 +68,5 @@ public class ProduitServiceTest {
         assertEquals(produitDto, fetchedProduitDto);
     }
 
- */
+
 }

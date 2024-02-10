@@ -5,7 +5,6 @@ import com.gakoudev.cicd.dao.ProduitDao;
 import com.gakoudev.cicd.dto.ProduitDto;
 import com.gakoudev.cicd.entities.Produit;
 import com.gakoudev.cicd.mapper.ProduitMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,10 +12,10 @@ import java.util.stream.Collectors;
 
 @Service
 public class ProduitService {
-    @Autowired
+
     private ProduitDao produitDao;
 
-    @Autowired
+
     private ProduitMapper produitMapper;
 
     public ProduitDto saveProduit(ProduitDto produitDto) {
