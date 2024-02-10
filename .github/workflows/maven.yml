@@ -27,11 +27,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Run docker-compose
+      run: up -d
 
     - name: Build with Maven
-      with:
-        compose-file: docker-compose.yml
-        run: up -d
       run: mvn clean install
 
     - name: Build & push Docker image
