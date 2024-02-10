@@ -39,8 +39,8 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         compose-file: docker-compose.yml
         run: up -d
-        
-    - name: Build with Maven
+
+    - name: Maven Build
       run: mvn clean install
 
 
